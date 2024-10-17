@@ -163,3 +163,77 @@ int main(){
     printf("%d\n",(x>9)&&(x<100));
     return 0;
 }
+questions
+#include<stdio.h>
+int main(){
+    int num;
+    printf("Enter your desired number:-");
+    scanf("%d",&num);
+    printf("%d",num%2==0);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    int isSunday = 0;
+    int isSnowing = 0;
+
+    printf("%d\n",isSunday && isSnowing);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    int isMonday = 0;
+    int isRaining = 1;
+    printf("%d\n",isMonday || isRaining);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    int x;
+    printf("Enter the number:-");
+    scanf("%d",&x);
+    printf("%d\n",(x>9)&&(x<100));
+    return 0;
+}
+
+average of a given number
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("Enter the first number:-\n");
+    scanf("%d",&a);
+    printf("Enter the first number:-\n");
+    scanf("%d",&b);
+    printf("Enter the first number:-\n");
+    scanf("%d",&c);
+    printf("Average of three number is :- %d",(a+b+c)/3);
+    return 0;
+
+
+}
+
+perimeter of rectangle
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("Enter the first number :-");
+    scanf("%d",&a);
+    printf("Enter the first number :-");
+    scanf("%d",&b);
+    printf("the perimeter of rect is:-%d",(a+b)*2);
+    return 0;
+}
+
+cube of number 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Enter the number :-");
+    scanf("%d",&a);
+    printf("Cube of the given number is:- %d",a*a*a);
+    return 0;
+}
+
